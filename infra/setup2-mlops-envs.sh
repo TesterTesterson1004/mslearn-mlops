@@ -13,7 +13,7 @@ fi
 echo "Suffix: $suffix"
 
 RESOURCE_PROVIDER="Microsoft.MachineLearningServices"
-REGIONS=("eastus" "westus")
+REGIONS=("westus")
 RANDOM_REGION=${REGIONS[$RANDOM % ${#REGIONS[@]}]}
 
 # Dev environment
